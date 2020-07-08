@@ -1,0 +1,50 @@
+ body { font-size:14px !important;font-family:Tahoma; }
+
+.img-rtl { -webkit-transform: rotateY(180deg); /* Safari */  transform: rotateY(180deg); /* Standard syntax */ }
+.go-right { float: right !important; }
+.go-left { float: left !important; }
+.go-text-left { text-align: left !important; }
+.go-text-right { text-align: right !important; }
+
+input { direction:RTL }
+::-webkit-input-placeholder { direction: rtl; }
+:-moz-placeholder { direction: rtl; }
+::-moz-placeholder { direction: rtl; }
+:-ms-input-placeholder { direction: rtl; }
+
+.location-icon::-webkit-input-placeholder:before { content : " \f041" ; }
+.calender-icon::-webkit-input-placeholder:before { content : " \f073" ; }
+.search-icon:after { font: normal normal normal 14px/1 FontAwesome; content : " \f002" ; }
+.search-icon:before { display: none !important }
+
+.panel-title { direction:RTL }
+.RTL { direction:RTL }
+#rtl-menu { right:8% !important; }
+.rt-menu-caption { margin-left:-85px }
+ 
+.dropdownjs > ul > li {  text-align: right !important; }
+.navbar .navbar-form .form-control-wrapper .form-control, .navbar .navbar-form .form-control { text-align: left !important; }
+.account { margin-right:0px}
+.pr0 { padding-right: 15px;padding-left: 0px; }
+.pdr0 { padding-right:0px }
+
+.tour_list_desc {  border-right: 0px solid #ededed !important; }
+.main-title { margin-bottom:10px !important; }
+.RTL_Bar { padding-left: 0px !important;padding-right:0px !important; }
+.smallblacklabel { right:0px !important; left: 190px !important;}
+.rtl_title_home { margin-right: 10px; margin-bottom: 12px;}
+.labelright { border-right: 1px solid #e8e8e8; border-left: 0px !important; }
+.mega-dropdown { left : 240px !important; }
+
+/* Homepage */
+.searchInput { padding-right: 30px; }
+.locaicon { right: 12px !important; }
+input.qty2 { left : 0px !important; }
+/* Homepage */
+
+/* Listing page */
+.sideline {  border-right: solid 1px #e7e7e7; border-left: solid 0px #e7e7e7 !important; }
+.offset-RTL { padding-left: 0px !important; padding-right: 15px !important; }
+
+/* Listing page */
+
